@@ -1,8 +1,5 @@
 #include <stdio.h>
 
-
-}
-
 int main() {
     float s;
     scanf("%f", &s);
