@@ -10,7 +10,7 @@ int main() {
     double area;
     area= 3.14*da;
 
-    printf("Area: %lf", area);
+    printf("Area: %.2lf", area);
 
     return 0;
 }
