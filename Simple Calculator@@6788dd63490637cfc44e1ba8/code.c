@@ -7,16 +7,20 @@ int main() {
     scanf("%d %d %c", &a, &b, &c);
 
     if(ch=="+"){
-        printf("%d", a+b);
+        int d=(a+b);
+        printf("%d",d);
     }
     else if(ch=="-"){
-        printf("%d", a-b);
+        int d=(a-b);
+        printf("%d",d);
     }
     else if(ch=="*"){
-        printf("%d", a*b);
+        int d=(a*b);
+        printf("%d",d);
     }
     else{
-        printf("%d", a/b);
+        int d=(a/b);
+        printf("%d",d);
     }
     return 0;
 }
