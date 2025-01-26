@@ -2,9 +2,8 @@
 
 int main() {
     char a;
-    scanf(" %c", &a);
+    scanf("%c", &a);
 
-    int a;
     if(a>=65 && a<=90){
         printf("Uppercase");
     }
