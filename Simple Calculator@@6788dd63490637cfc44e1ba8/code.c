@@ -6,21 +6,24 @@ int main() {
 
     scanf("%d %d %c", &a, &b, &ch);
 
-    if(ch=="+"){
+    if(ch=='+'){
         d=(a+b);
         printf("%d",d);
     }
-    else if(ch=="-"){
+    else if(ch=='-'){
         d=(a-b);
         printf("%d",d);
     }
-    else if(ch=="*"){
+    else if(ch=='*'){
         d=(a*b);
         printf("%d",d);
     }
-    else{
+    else if(ch=='/'){
         d=(a/b);
         printf("%d",d);
+    }
+    else{
+        printf("error");
     }
     return 0;
 }
