@@ -1,5 +1,5 @@
-#include <stdio.h> v
-oid moveZerosToEnd(int arr[], int N) { 
+#include <stdio.h> 
+void moveZerosToEnd(int arr[], int N) { 
     int nonZeroIndex = 0; 
     for (int i = 0; i < N; i++) { 
         if (arr[i] != 0) { 
